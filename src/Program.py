@@ -39,7 +39,7 @@ def GetBestImage():
             temp_faces_list = all_images_faces
             biggest_person_group = get_biggest_person_group(temp_faces_list)
 
-            best_image = find_largest_person_image(biggest_person_group,all_images_faces,face_image_resolution)
+            best_image = find_largest_person_image(biggest_person_group, all_images_faces, face_image_resolution)
             if best_image:
                 return json.dumps(best_image.face_id)
             else:
@@ -48,7 +48,6 @@ def GetBestImage():
             return 'No faces found in images'
     else:
         return 'No images given. please pass local images path as requested'
-
 
 
 def get_biggest_person_group(faces_list):
@@ -64,11 +63,11 @@ def get_biggest_person_group(faces_list):
     return biggest_person_group
 
 
-def find_largest_person_image(person_faces ,all_faces, image_resolution):
+def find_largest_person_image(person_faces, all_faces, image_resolution):
     best_image = None
     best_resolution = 0
 
-    for fa in person_faces():
+    for fa in person_faces:
         # get the detectedFace object form the similarFace list by face_id
         detected_face = next((x for x in all_faces if x.face_id == fa.face_id), None)
         if detected_face:
