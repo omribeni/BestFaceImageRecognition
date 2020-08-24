@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ede856e2-7b6c-4cd1-aae0-b96d5355e2ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Face.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Face.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/face_api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/face_api_client.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +151,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -167,16 +171,6 @@
           <url>file://$PROJECT_DIR$/src/tests.py</url>
           <line>17</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Program.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Program.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,6 +4,7 @@ from collections import defaultdict
 
 from flask import Flask, request, render_template
 from werkzeug.exceptions import BadRequest
+
 from face_api_client import FaceApiClient
 from src.utils import Utils
 
@@ -41,7 +42,7 @@ def GetBestImage():
 
             best_image = find_largest_person_image(biggest_person_group, all_images_faces, face_image_resolution)
             if best_image:
-                return json.dumps(best_image.face_id)
+                return json.loads(json.dumps(best_image, default=lambda o: o.__dict__))
             else:
                 raise BadRequest('failed retreiving bestImage')
         else:
@@ -54,12 +55,14 @@ def get_biggest_person_group(faces_list):
     biggest_person_group = []
     while faces_list:
         face = faces_list[0]
-        cur_group = azure_face_api_client.recognize_similar_faces(face, faces_list[1:])
+
+        cur_group = [face]
+        # add all similar faces of the current face
+        cur_group.extend(azure_face_api_client.recognize_similar_faces(face, faces_list[1:]))
         if cur_group and len(cur_group) > len(biggest_person_group):
             biggest_person_group = cur_group
-            biggest_person_group.append(face)
-            faces_list = [x for x in faces_list if x not in cur_group]
-        faces_list = faces_list[1:]
+        # remove all of the current group members from the faces list
+        faces_list = [x for x in faces_list if x not in cur_group]
     return biggest_person_group
 
 

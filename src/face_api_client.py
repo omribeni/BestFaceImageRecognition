@@ -39,7 +39,7 @@ class FaceApiClient(object):
             # convert local image to stream
             file_path = image_path.replace('/', '\\')
             with open(file_path, "rb") as image_bytes_stream:
-                return self.__client.face.detect_with_stream(image_bytes_stream, detection_model="detection_02")
+                return self.__client.face.detect_with_stream(image_bytes_stream,return_face_attributes=["age","gender","headPose","smile","facialHair","glasses","emotion","hair","makeup","occlusion","accessories"], detection_model="detection_01", return_face_landmarks=True)
         except Exception as e:
             return None
 
