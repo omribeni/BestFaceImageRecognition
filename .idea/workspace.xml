@@ -4,8 +4,10 @@
     <list default="true" id="ede856e2-7b6c-4cd1-aae0-b96d5355e2ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Face.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FaceProvider.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/face_api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/face_api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

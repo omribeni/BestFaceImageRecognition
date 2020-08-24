@@ -1,5 +1,3 @@
-import base64
-import os
 import json
 
 import PIL
@@ -9,13 +7,12 @@ from werkzeug.exceptions import BadRequest
 
 class Utils(object):
 
-
     @classmethod
     def get_image_resolution(cls, path):
         # calculate image resolution
         image = PIL.Image.open(path)
         width, height = image.size
-        return width,height
+        return width, height
 
     @classmethod
     def validate_image_file(cls, path):
@@ -31,8 +28,9 @@ class Utils(object):
                 img_path = img.get('path')
                 if not img_path:
                     raise BadRequest('no path of image')
+
                 cls.validate_image_file(img_path)
                 images.append(img_path)
             return images
         else:
-            return None
+            raise ValueError('No images given')
