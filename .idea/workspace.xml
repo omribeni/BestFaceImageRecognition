@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ede856e2-7b6c-4cd1-aae0-b96d5355e2ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FaceRecognizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FaceRecognizer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Face.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FaceProvider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/face_api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/face_api_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +43,15 @@
   </component>
   <component name="ProjectId" id="1gKD8RYNfa4FSB3EUF1GhdUiB1H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -40,42 +61,7 @@
       <recent name="C:\Users\omribi\PycharmProjects\FaceRecognizer\static" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.Program (1)">
-    <configuration name="Program (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FaceRecognizer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="FACE_SUBSCRIPTION_KEY" value="0663ae19330f42f5bb7c5b29f173c843" />
-        <env name="FACE_ENDPOINT" value="https://face-api-viz.cognitiveservices.azure.com/" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Program.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Program">
     <configuration name="Program" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FaceRecognizer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,12 +71,12 @@
         <env name="FACE_ENDPOINT" value="https://face-api-viz.cognitiveservices.azure.com/" />
         <env name="FACE_SUBSCRIPTION_KEY" value="0663ae19330f42f5bb7c5b29f173c843" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\omribi\PycharmProjects\FaceRecognizer\src\Program.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,16 +111,15 @@
     <list>
       <item itemvalue="Python.Program" />
       <item itemvalue="Python.tests" />
-      <item itemvalue="Python.Program (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Program (1)" />
-        <item itemvalue="Python.tests" />
         <item itemvalue="Python.Program" />
+        <item itemvalue="Python.tests" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -153,13 +138,96 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="214" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602254947650">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="346" y="214" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1602254947650" />
+    <state x="346" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.0.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1601992325406" />
+    <state x="382" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/45.23.1747.1097@45.23.1747.1097" timestamp="1601911155414" />
+    <state x="384" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/47.23.1745.1097@47.23.1745.1097" timestamp="1601927142888" />
+    <state x="659" y="270" key="#xdebugger.evaluate" timestamp="1602337367004">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="659" y="270" key="#xdebugger.evaluate/0.0.1792.1120@0.0.1792.1120" timestamp="1602337367004" />
+    <state width="1063" height="466" key="DebuggerActiveHint" timestamp="1602351839288">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1063" height="466" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1602351839288" />
+    <state x="737" y="378" key="FileChooserDialogImpl" timestamp="1602004171487">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="737" y="378" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1602004171487" />
+    <state x="709" y="333" key="FileChooserDialogImpl/47.23.1745.1097@47.23.1745.1097" timestamp="1601919990445" />
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1602351480324">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1602351480324" />
+    <state width="1703" height="303" key="GridCell.Tab.0.bottom/47.23.1745.1097@47.23.1745.1097" timestamp="1601927402630" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1602351480323">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1602351480323" />
+    <state width="1703" height="303" key="GridCell.Tab.0.center/47.23.1745.1097@47.23.1745.1097" timestamp="1601927402629" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1602351480323">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1602351480323" />
+    <state width="1703" height="303" key="GridCell.Tab.0.left/47.23.1745.1097@47.23.1745.1097" timestamp="1601927402629" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1602351480324">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1602351480324" />
+    <state width="1703" height="303" key="GridCell.Tab.0.right/47.23.1745.1097@47.23.1745.1097" timestamp="1601927402630" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1602351484757">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1602351480206" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1602351484757" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1602341102498" />
+    <state width="1703" height="374" key="GridCell.Tab.1.bottom/47.23.1745.1097@47.23.1745.1097" timestamp="1601927124157" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1602351484756">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1602351480206" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1602351484756" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.23.1792.1025@0.23.1792.1025" timestamp="1602341102497" />
+    <state width="1703" height="374" key="GridCell.Tab.1.center/47.23.1745.1097@47.23.1745.1097" timestamp="1601927124156" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1602351484756">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1602351480205" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1602351484756" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.23.1792.1025@0.23.1792.1025" timestamp="1602341102497" />
+    <state width="1703" height="374" key="GridCell.Tab.1.left/47.23.1745.1097@47.23.1745.1097" timestamp="1601927124156" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1602351484756">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1602351480206" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1602351484756" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.23.1792.1025@0.23.1792.1025" timestamp="1602341102498" />
+    <state width="1703" height="374" key="GridCell.Tab.1.right/47.23.1745.1097@47.23.1745.1097" timestamp="1601927124156" />
+    <state x="638" y="287" key="RollbackChangesDialog" timestamp="1602337538934">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="638" y="287" key="RollbackChangesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1602337538934" />
+    <state x="386" y="191" key="SettingsEditor" timestamp="1602008091741">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="386" y="191" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1602008091741" />
+    <state x="421" y="210" key="SettingsEditor/45.23.1747.1097@45.23.1747.1097" timestamp="1601911128436" />
+    <state x="423" y="210" key="SettingsEditor/47.23.1745.1097@47.23.1745.1097" timestamp="1601927358337" />
+    <state x="626" y="310" width="540" height="524" key="StructurePopup" timestamp="1602337567616">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="626" y="310" width="540" height="524" key="StructurePopup/0.0.1792.1120@0.0.1792.1120" timestamp="1602337567616" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -174,7 +242,19 @@
           <line>17</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/face_api_client.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

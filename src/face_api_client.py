@@ -7,10 +7,12 @@ import Face
 
 class FaceApiClient(object):
     # Set the FACE_SUBSCRIPTION_KEY environment variable with your key as the value.
-    KEY = os.environ.get('FACE_SUBSCRIPTION_KEY')
+    # KEY = os.environ.get('FACE_SUBSCRIPTION_KEY')
+    KEY = "b5d8f11828cb4b40a4c9ebb725caf4b2"
 
     # Set the FACE_ENDPOINT environment variable with the endpoint from your Face service in Azure.
-    ENDPOINT = os.environ.get('FACE_ENDPOINT')
+    ENDPOINT ="https://vizbestimageresult.cognitiveservices.azure.com/"
+    # os.environ.get('FACE_ENDPOINT')
 
     def __init__(self):
         self.__client = None
@@ -47,8 +49,8 @@ class FaceApiClient(object):
         self.__initialize()
         try:
             # convert local image to stream
-            file_path = image_path.replace('/', '\\')
-            with open(file_path, "rb") as image_bytes_stream:
+            # file_path = image_path.replace('/', '\\')
+            with open(image_path, "rb") as image_bytes_stream:
                 return self.__client.face.detect_with_stream(image_bytes_stream,
                                                              return_face_attributes=Face.FaceFields.all(),
                                                              detection_model="detection_01", return_face_landmarks=True)
