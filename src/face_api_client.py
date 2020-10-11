@@ -7,12 +7,10 @@ import Face
 
 class FaceApiClient(object):
     # Set the FACE_SUBSCRIPTION_KEY environment variable with your key as the value.
-    # KEY = os.environ.get('FACE_SUBSCRIPTION_KEY')
-    KEY = "b5d8f11828cb4b40a4c9ebb725caf4b2"
+    KEY = os.environ.get('FACE_SUBSCRIPTION_KEY')
 
     # Set the FACE_ENDPOINT environment variable with the endpoint from your Face service in Azure.
-    ENDPOINT ="https://vizbestimageresult.cognitiveservices.azure.com/"
-    # os.environ.get('FACE_ENDPOINT')
+    ENDPOINT = os.environ.get('FACE_ENDPOINT')
 
     def __init__(self):
         self.__client = None
